@@ -1,9 +1,14 @@
+import Details from './components/Details'
+import Exercises from './components/Exercises';
 import './App.css';
+
 
 function App() {
   return (
     <div className="App">
-      <h1>Equinox</h1>
+      {/* <Header /> */}
+      <Exercises />
+      <Details />
     </div>
   );
 }
