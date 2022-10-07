@@ -25,17 +25,16 @@ function Exercises(props) {
   return (
     <>
     <div className={classes['left-pane']}>
-    <div>
-    <h1>Search</h1>
+    <div className={classes.search}>
     <input
         type="text"
-        placeholder="Search..."
+        placeholder="Search exercises by name..."
         onChange={(event) => {
           setSearchTerm(event.target.value)
         }} />
 
     </div>
-    <div>
+    <div className={classes.list}>
     <h1>Exercises:</h1>
       {dataComponent}
     </div>
@@ -45,3 +44,5 @@ function Exercises(props) {
 }
 
 export default Exercises
+
+
