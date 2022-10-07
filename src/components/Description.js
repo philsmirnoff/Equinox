@@ -1,13 +1,16 @@
 import React from 'react';
-import classes from './Description.module.css';
+
 
 function Description(props) {
   return (
-    <div className={classes['right-pane']}>
+    <div>
       <h1>Details:</h1>
       <h1>{props.exercise.name}</h1>
       <h2>{props.exercise.description}</h2>
-      <video src={props.exercise.video} />
+      <h2>Watch this exercise video from s3.amazon.aws</h2>
+      <video width="320" height="365" controls>
+        <source src={props.exercise.video.url} type="video/mp4" />
+      </video>
     </div>
   )
 }

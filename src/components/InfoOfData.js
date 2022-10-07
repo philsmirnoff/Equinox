@@ -1,10 +1,11 @@
 
 import React from 'react'
-import Description from './Description'
+import Description from './Description';
+import classes from './InfoOfData.module.css';
 
 function InfoOfData(props) {
   return (
-    <div>
+    <div className={classes['right-pane']}>
       <Description exercise={props.exercise} />
     </div>
   )
