@@ -9,6 +9,7 @@ function App() {
   const [selected, setSelected] = useState(null);
 
   const onSelect = (id) => {
+
     setSelected(data.find((exercise) => exercise.id === id));
   };
   console.log(selected);
