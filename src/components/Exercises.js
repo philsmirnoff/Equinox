@@ -35,7 +35,7 @@ function Exercises(props) {
 
     </div>
     <div className={classes.list}>
-    <h1>Exercises:</h1>
+    {/* <h1>Exercises:</h1> */}
       {dataComponent}
     </div>
     </div>
