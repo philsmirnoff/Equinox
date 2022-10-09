@@ -4,6 +4,8 @@
   height: 100vh;
   background-color: black;
   overflow-y: scroll;
+  scrollbar-color: white;
+  scrollbar-width: thin;
 }
 
 
@@ -19,6 +21,7 @@
   cursor: pointer;
   overflow: auto;
   font-size: 15px;
+
 }
 
 .exercise:hover {
