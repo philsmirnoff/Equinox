@@ -19,7 +19,6 @@
   color: white
 }
 
-
 @media screen and (max-width: 900px) {
   .App {
     display: flex;
