@@ -11,21 +11,13 @@
   scroll-behavior: smooth;
 }
 
-
-.details {
-  margin-top: 6rem;
-}
-
-/* video {
-  width: 30%;
-  height: 30%;
-  object-fit: cover;
-  border: 10px solid red;
-} */
-
 h1 {
   font-size: 40px;
   font-weight: 700;
-  /* margin-bottom: 2rem; */
   color: red
+}
+
+
+.details {
+  margin-top: 6rem;
 }

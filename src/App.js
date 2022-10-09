@@ -12,7 +12,6 @@ function App() {
 
     setSelected(data.find((exercise) => exercise.id === id));
   };
-  console.log(selected);
 
   return (
     <div className="App">
