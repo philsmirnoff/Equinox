@@ -11,14 +11,10 @@
 ### To get a local copy up and running follow these steps:
 - Clone repository:
 ```
-git clone https://github.com/philsmirnoff/Equinox.git
-```
-- Install packages:
-```
-npm install
+https://github.com/philsmirnoff/Equinox.git
 ```
 
-### In the project directory, you can run:
+- In the project directory, you can run:
 
 ```
 npm start
