@@ -14,6 +14,11 @@
 https://github.com/philsmirnoff/Equinox.git
 ```
 
+- Install packages:
+```
+npm install
+```
+
 - In the project directory, you can run:
 
 ```
