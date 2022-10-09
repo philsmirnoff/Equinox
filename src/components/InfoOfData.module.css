@@ -7,3 +7,16 @@
   overflow-y: scroll;
   flex-direction: column-reverse;
 }
+
+
+@media screen and (max-width: 900px) {
+  .right-pane {
+    width: 100%;
+    float: right;
+    height: 100vh;
+    background-color: black;
+    padding: 1rem;
+    overflow-y: scroll;
+    flex-direction: column-reverse;
+  }
+}

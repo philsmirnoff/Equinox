@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto Mono', monospace;
+  top: 0;
+  left: 0;
+  right: 0;
+
+}
+
+
+.App {
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  overflow: hidden;
+  color: white
+}
+
+
+@media screen and (max-width: 900px) {
+  .App {
+    display: flex;
+    flex-direction: column;
+  }
+}

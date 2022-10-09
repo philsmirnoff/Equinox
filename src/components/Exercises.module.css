@@ -34,9 +34,8 @@
   display: block;
   padding: 2px 10px;
   font-size: 17px;
-  border: 0px solid #ddd;
   position: sticky;
-  top: 0px;
+  top: 0;
   background-color: #171616;
 
 }
@@ -58,19 +57,16 @@ input {
 
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
   .left-pane {
     width: 100%;
-    height: auto;
+    height: 40vh;
+    /* height: auto; */
     position: relative;
-  }
-
-  .right-pane {
-    width: 100%;
-    float: none;
   }
 }
 
+/*
 @media screen and (max-width: 400px) {
   .search {
     width: 100%;
@@ -80,4 +76,4 @@ input {
   .list {
     margin-top: 0;
   }
-}
+} */
