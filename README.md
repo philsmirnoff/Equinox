@@ -11,7 +11,11 @@
 ### To get a local copy up and running follow these steps:
 - Clone repository:
 ```
-https://github.com/philsmirnoff/Equinox.git
+git clone https://github.com/philsmirnoff/Equinox.git
+```
+- Install packages:
+```
+npm install
 ```
 
 ### In the project directory, you can run:
